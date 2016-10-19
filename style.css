@@ -1,23 +1,91 @@
-* {
-	font-family:helvetica;
-	font-size:35px;
-	color:#EBF5FB;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {	display: block;}
+body {	line-height: 1;}
+ol, ul {	list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
+/**/
+
 html {
-	background-color:#EBF5FB;
+	background-color:#D0E4F5;
 }
 body {
-	margin:3px;
-	padding:3px;
+	font-family:helvetica;
+	color:white;
 }
 div {
-	background-color:#001250;
 	padding:3px;
-	max-width:120px;
-	border:1px solid black;
+	margin:3px;
 }
-p {
-	margin:0px;
-	padding:0px;
-	color:white;
+h1 {
+	font-size:100px;
+	font-weight:normal;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+a:hover, a:active {
+}
+.top {
+		border:1px solid white;
+		color:white;
+}
+.titlebox {
+	max-width:400px;
+	padding:5px 25px;
+	text-align:center;
+	margin:10% auto 1%;
+}
+.navbar {
+	width:107px;
+	float:left;
+	padding:4px;
+}
+.navbar:hover{
+	color:black;
+	background-color:white;
+	border:1px solid black;
+	text-transform:uppercase;
+}
+.main {
+	width:99%;
+	border:1px solid white;
+	clear:left;
+	padding:4px 4px;
+	max-height:600px;
+	overflow:hidden;
+}
+.second {
+	text-align:center;
+	float:left;
+	margin:auto;
+	width:19%;
+	overflow:hidden;
 }
